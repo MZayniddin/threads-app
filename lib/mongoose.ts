@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import postcss from "postcss";
 
 let isConnected = false; // variable to check if mongoose is connected
 
