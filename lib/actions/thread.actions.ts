@@ -58,9 +58,9 @@ export async function createThread({
   communityId,
   path,
 }: Params) {
-  try {
-    connectToDB();
+  connectToDB();
 
+  try {
     const createdThread = await Thread.create({
       text,
       author,
