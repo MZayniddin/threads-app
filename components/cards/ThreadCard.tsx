@@ -111,8 +111,8 @@ const ThreadCard = ({
             </div>
           </div>
         </div>
-
-        {/* <DeleteThread
+        {/* 
+        <DeleteThread
           threadId={JSON.stringify(id)}
           currentUserId={currentUserId}
           authorId={author.id}
